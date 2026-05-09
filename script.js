@@ -1,0 +1,66 @@
+
+var cadastros = 0
+var quantiaBaixa = 0
+let nome = prompt('Digite seu nome, por favor:');
+while (nome == "") {
+    if (nome == ""){
+        alert('Erro! Nome inválido. Por favor, digite novamente.');
+        nome = prompt('Digite seu nome');
+    } else {
+        break
+    }
+}
+alert(`Bem-vindo ${nome}!`);
+console.log(`Usuário cadastrado. Nome: ${nome}`);
+
+alert('Iniciando cadastro de vinhos.');
+console.log('Iniciando cadastro de vinhos:');
+
+while (true){
+let opcao = prompt('Você deseja cadastrar um vinho? (SIM ou NÃO)')
+opcao = opcao.toLowerCase()
+
+if (opcao=="sim"){
+cadastros += 1
+var nomeVinho = prompt('Digite o nome do vinho:');
+console.log(`-----------------`);
+console.log(`Nome do vinho: ${nomeVinho}`);
+let idade = parseInt(prompt('O ano que o vinho foi feito:'));
+console.log(`Idade do vinho: ${2026 - idade}`);
+let estoque = parseInt(prompt(`A quantidade armazenada no estoque: `));
+console.log(`Quantidade armazenada: ${estoque}`);
+var velho = 1 //Variavel para medir idade
+if (idade > velho){
+    velho = idade
+    var nomeVelho = nomeVinho
+}
+if (estoque < 5){
+    console.log(`O vinho de nome: ${nomeVinho} tem um estoque baixo (${estoque}) <-------`)
+    quantiaBaixa += 1
+    var vinhoVelho = true
+}
+
+} else if (opcao=="nao" || opcao=="não"){
+    alert('Você escolheu não continuar')
+    if (cadastros == 0){
+    console.log('Usuário não cadastrou nenhum vinho.')
+    }
+    var vinhoVelho = false
+    break
+}
+}
+alert('Sim, josé. O código funcionou. YIPEEEE')
+if (cadastros > 0){
+    console.log(`Número de cadastros realizados pelo usuário ${nome}: ${cadastros}`)
+} else {
+    console.log(`Fim do programa.`)
+}
+if (vinhoVelho){
+    console.log(`O vinho mais velho é o ${nomeVelho}, com ${velho} anos.`)
+}
+if (quantiaBaixa > 0){
+    alert(`${quantiaBaixa} vinhos tem uma quantidade baixa em estoque! Confira no Console.`)
+    console.log(`${quantiaBaixa} vinhos tem uma quantidade baixa em estoque. Confira acima.`)
+} if (quantiaBaixa == 0){
+    quantiaBaixa == 0
+}
