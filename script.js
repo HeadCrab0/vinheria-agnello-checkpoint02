@@ -54,6 +54,8 @@ if (estoque < 5){
     }
     var vinhoVelho = false
     break
+} else {
+    alert('Opção inválida. Digite SIM ou NÃO.')
 }
 }
 alert('Sim, josé. O código funcionou. YIPEEEE')
