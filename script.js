@@ -24,9 +24,8 @@ if (opcao == null){
     console.log('Usuário não cadastrou nenhum vinho.')
     break
 } else {
-    opcao = opcao.toLowerCase()
+    opcao = opcao.toLowerCase().trim()
 }
-
 
 if (opcao=="sim"){
 cadastros += 1
