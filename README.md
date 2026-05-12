@@ -1,6 +1,6 @@
 ﻿Vinheria-agnello v2
 
-Nesse projeto incrementamos um codigo para adicionar vinhos novos, falar quantos foram adicionados ,classificar eles em "jovem, amadurecido, antigo" e falar se tem menos de 5 vinhos 
+Nesse projeto incrementamos um codigo para adicionar vinhos novos, falar quantos foram adicionados, informar a idade e falar se tem menos de 5 vinhos 
 
 
 
