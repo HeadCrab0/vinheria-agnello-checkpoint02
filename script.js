@@ -63,7 +63,7 @@ if (cadastros > 0){
 } else {
     console.log(`Fim do programa.`)
 }
-    console.log(`O vinho mais velho é o ${nomeVelho}, com ${velho} anos.`)
+    console.log(`O vinho mais velho é o ${nomeVelho}, com ${2026 - velho} anos.`)
     
 if (quantiaBaixa > 0){
     alert(`${quantiaBaixa} vinhos tem uma quantidade baixa em estoque! Confira no Console.`)
