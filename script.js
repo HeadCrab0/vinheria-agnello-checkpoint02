@@ -38,7 +38,7 @@ let estoque = parseInt(prompt(`A quantidade armazenada no estoque: `));
 console.log(`Quantidade armazenada: ${estoque}`);
 
 if (idade > velho){
-    velho = idade
+    velho = 2026 - idade
     nomeVelho = nomeVinho
 }
 if (estoque < 5){
@@ -63,7 +63,7 @@ if (cadastros > 0){
 } else {
     console.log(`Fim do programa.`)
 }
-    console.log(`O vinho mais velho é o ${nomeVelho}, com ${2026 - velho} anos.`)
+    console.log(`O vinho mais velho é o ${nomeVelho}, com ${velho} anos.`)
     
 if (quantiaBaixa > 0){
     alert(`${quantiaBaixa} vinhos tem uma quantidade baixa em estoque! Confira no Console.`)
