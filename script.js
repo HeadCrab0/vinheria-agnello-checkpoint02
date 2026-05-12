@@ -58,7 +58,6 @@ if (estoque < 5){
     alert('Opção inválida. Digite SIM ou NÃO.')
 }
 }
-alert('Sim, josé. O código funcionou. YIPEEEE')
 if (cadastros > 0){
     console.log(`Número de cadastros realizados pelo usuário ${nome}: ${cadastros}`)
 } else {
