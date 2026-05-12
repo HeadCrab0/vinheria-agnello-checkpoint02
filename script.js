@@ -63,10 +63,10 @@ if (cadastros > 0) {
     console.log(`O vinho mais velho é o ${nomeVelho}, com ${velho} anos.`);
     
     if (quantiaBaixa > 0) {
-        console.log(`Atenção: ${quantiaBaixa} item(ns) com estoque crítico.`);
-        alert(`${quantiaBaixa} vinhos têm estoque baixo! Verifique o console.`);
+console.log(`Atenção: ${quantiaBaixa} vinhos com estoque crítico!`);
+alert(`${quantiaBaixa} vinhos têm estoque baixo! Verifique o console.`);
     } else {
-        console.log(`Situação do estoque: OK.`);
+        console.log(`Situação do estoque: OK. Todos os vinhos estão em dia!`);
     }
 } else {
     console.log(`Nenhum vinho foi cadastrado.`);
