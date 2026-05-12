@@ -16,5 +16,19 @@ header{
   padding:25px;
   background-color: rgba(0,0,0,0.4);
   text-align: center;
-  
+  border-bottom: 3px solid #d4af37;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+header h1{
+  font-size: 2.8em;
+  color: #f5d28c;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* main */
+main{
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
