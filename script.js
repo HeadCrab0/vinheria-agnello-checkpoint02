@@ -71,4 +71,4 @@ alert(`${quantiaBaixa} vinhos têm estoque baixo! Verifique o console.`);
 } else {
     console.log(`Nenhum vinho foi cadastrado.`);
 }
-console.log('==============================');
+
