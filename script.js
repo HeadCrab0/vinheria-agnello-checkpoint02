@@ -44,7 +44,7 @@ if (idadeCalculada > velho) {
 }
 
 if (estoque < 5) {
-    console.log(`ALERTA: Estoque baixo para ${nomeVinho} (${estoque}) <-------`);
+    console.log(`ALERTA!! Estoque baixo para ${nomeVinho} (${estoque}) <-------`);
     quantiaBaixa++;
     }
 
